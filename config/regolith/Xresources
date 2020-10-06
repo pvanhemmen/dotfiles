@@ -1,3 +1,7 @@
 Xft.dpi: 192
 
-rofi.theme: ~/.config/regolith/rofi/nord.rasi
+i3-wm.font:	pango:MesloLGM Nerd Font 12
+i3-wm.bar.font:	pango:MesloLGM Nerd Font 12, FontAwesome 12
+i3xrocks.value.font: MesloLGM Nerd Font 12
+rofi.dpi: 192
+rofi.font: MesloLGM Nerd Font 14
