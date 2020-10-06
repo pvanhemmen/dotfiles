@@ -1,0 +1,64 @@
+* {
+  nord0: #2e3440;
+  nord1: #3b4252;
+  nord2: #434c5e;
+  nord3: #4c566a;
+  nord4: #d8dee9;
+  nord5: #e5e9f0;
+  nord6: #eceff4;
+  nord7: #8fbcbb;
+  nord8: #88c0d0;
+  nord9: #81a1c1;
+  nord10: #5e81ac;
+  nord11: #bf616a;
+  nord12: #d08770;
+  nord13: #ebcb8b;
+  nord14: #a3be8c;
+  nord15: #b48ead;
+
+  background-color: @nord1;
+  border-color: @nord0;
+  text-color: @nord4;
+  spacing: 0;
+}
+
+window {
+  width: 33%;
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: @nord0;
+  border: 0 0 1px 0;
+  border-color: @nord0;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: false;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 16px;
+}
+
+element selected {
+  background-color: @nord3;
+}
+

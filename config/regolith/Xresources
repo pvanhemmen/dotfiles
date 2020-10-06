@@ -1,0 +1,7 @@
+Xft.dpi: 192
+
+rofi.theme: ~/.config/regolith/rofi/nord.rasi
+i3-wm.program.launcher.app: rofi -dpi 192 -show drun -theme $rofiTheme
+i3-wm.program.launcher.cmd: rofi -dpi 192 -show run -theme $rofiTheme
+i3-wm.program.launcher.window: rofi -dpi 192 -show window -theme $rofiTheme
+i3-wm.program.file_search: "rofi -dpi 192 -show find -modi find:/usr/share/rofi/modi/finder.sh"

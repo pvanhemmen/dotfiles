@@ -1,0 +1,9 @@
+{
+	"color_scheme": "Packages/Nord/Nord.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"remember_full_screen": true,
+	"theme": "Fits.sublime-theme"
+}
